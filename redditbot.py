@@ -4,7 +4,7 @@ import random
 from keys import DISC_TOKEN, RED_CLIENT_ID, RED_CLIENT_SCRT
 from discord.ext import commands
 
-DISC_PREFIX = "monkey "
+DISC_PREFIX = "" #Set the prefix
 
 reddit = praw.Reddit(client_id=RED_CLIENT_ID, client_secret=RED_CLIENT_SCRT, user_agent="discord")
 bot = commands.Bot(command_prefix=DISC_PREFIX)
